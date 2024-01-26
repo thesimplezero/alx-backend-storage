@@ -1,0 +1,5 @@
+// 100-find
+// Script to list all documents with name starting by Holberton in the collection school
+
+// Find documents with name starting with Holberton
+db.getSiblingDB("my_db").school.find({ "name": /^Holberton/i }, { "topics": 0 }).limit(3).forEach(printjson)

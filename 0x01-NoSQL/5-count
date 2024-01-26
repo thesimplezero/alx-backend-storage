@@ -1,0 +1,4 @@
+// 5-count
+
+// Get the count of distinct names in the school collection
+count = db.school.distinct("name").length;

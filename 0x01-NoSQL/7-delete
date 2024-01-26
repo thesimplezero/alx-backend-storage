@@ -1,0 +1,5 @@
+// 7-delete
+// my comment
+
+// Delete documents with name="Holberton school"
+db.school.deleteOne({ "name": "Holberton school" });

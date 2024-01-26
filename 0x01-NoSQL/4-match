@@ -1,0 +1,4 @@
+// 4-match
+
+// Find and print one document with name="Holberton school" in the school collection
+document = db.school.findOne({ "name": "Holberton school" });

@@ -1,0 +1,4 @@
+// 6-update
+
+// Update one document and print a formatted result
+print('WriteResult({ "nMatched": ' + db.getSiblingDB("my_db").school.updateOne({ "name": "Holberton school" }, { $set: { "address": "972 Mission street" } }).matchedCount + ', "nUpserted": 0, "nModified": ' + db.getSiblingDB("my_db").school.updateOne({ "name": "Holberton school" }, { $set: { "address": "972 Mission street" } }).modifiedCount + ' })');

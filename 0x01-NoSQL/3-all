@@ -1,0 +1,4 @@
+// 3-all
+
+// Find and print only one document in the school collection
+document = db.school.findOne();
